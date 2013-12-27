@@ -1,0 +1,100 @@
+#TODOS
+
+Look at how this differs from the two-scoops startproject
+
+Move to 'django-heroku-quickstart-template' repo, this isn't really a fork of django-project-skel anymore.
+
+Should we really separate requirements?  , thus the -- leading to something being imported that shouldn't be. The downsides and risks seem minimal.
+
+django-crispy-forms and 'crispy-forms' in default installed apps
+integrate messages
+
+Create crib-sheet project, add crib-sheet
+ - views
+ - urls
+
+favicon.ico
+robots.txt
+humans.txt
+
+contact, privacy, TOS
+
+Add readme on cron/scheduler
+/assets/img, /assets/css, /assets/js  -- should there be a misc/base/site folder for consistency sake?
+
+logging setup
+Logs - to s3?
+
+Delete fixtures, add readme on "use fixtures sparingly" in fixtures folder
+
+Upgrade to django 1.5
+
+/docs folder
+?Sphinx
+?Move to RTFD
+
+/deploy folder
+
+Research, consider sentry/raven
+Research, consider virtualenvwrapper
+Research Vagrant
+
+Write a fabfile
+Add readme on celery/rabitmq/kombu
+Add readme memcached/redis
+? Add readme on gunicorn/gevent
+
+Static file management:
+  'compressor', 'jsmin', 'cssmin'
+  vs
+  django-pipeline
+  
+Continuous Integration
+
+?Add bootstrap goodies (icons)
+?Add rocket-launch/privatebeta/invitation
+
+### Additional things sometimes put in requirements
+http://www.deploydjango.com/django_project_structure/index.html#step-2-define-your-requirements
+
+
+?tastypie
+django-extensions
+'django-annoying'
+'imagekit',
+django-jenkins
+django-postgrespool
+django-heroku-memcachify
+django-admin-tools
+django-keyedcache
+django-livesettings
+django-pagination
+sorl-thumbnail
+werkzeug
+ipython
+ipdb
+django-imagekit
+django-chunks
+djangojames
+selenium
+django>=1.4,<1.5
+Coffin
+raven
+cssselect
+django-braces
+sorl-thumbnails
+
+
+
+
+Test requirements:
+nose
+webtest
+django-webtest
+django-coverage
+django-nose
+nose-exclude
+pep8
+pylint
+
+

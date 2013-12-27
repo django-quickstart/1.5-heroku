@@ -1,7 +1,7 @@
 1.5-heroku
 ==========
 
-Opinionated django project skeleton with recipe/script for rapid deployment to heroku.  Django version:1.5.  Server: Gunicorn.  Assets: AWS S3.  Frontend: Bootstrap.  DB: Postgres.  Secrets stored in environment variable
+Opinionated django project skeleton with recipe/script for rapid deployment to heroku.  Django version:1.5.  Server: Gunicorn.  Assets: AWS S3.  Frontend: Bootstrap 2.x.  DB: Heroku Postgres.  Secrets stored in environment variable.  Python version: 2.x
 
 
 # Django 1.4 & 1.5 project template for fast Heroku deployment
@@ -16,7 +16,7 @@ From [Django 1.4 project template for fast heroku deployment](https://github.com
 
 This is a template for starting Django 1.4 projects and rapidly deploying to heroku.  It is opinionated and configured for the things that I like and repetitively end up adding before deployment.  It works with 1.5 but has not been thoroughly tested with 1.5.   
 
-This is a first version, while it has been tested and used it is not promised to be complete or bug free.
+While this quickstart is what I use personally, it is not promised to be complete or bug free.
 
 
 ## Skel Template Features ##
@@ -58,7 +58,7 @@ This is a first version, while it has been tested and used it is not promised to
 
 ####Other Goodies
 * Simple 404 and 500 error templates.
-* TODO: bootstrap driven base.html
+* Bootstrap 2.x driven base.html
 * Automatically builds a README with installation notes.
 
 ####Template

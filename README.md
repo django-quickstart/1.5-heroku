@@ -8,7 +8,7 @@ Opinionated django project skeleton with recipe/script for rapid deployment to h
 <!-- Uncomment this in your real project (and delete )
 # {{ project_name|title }} Django Project
 
-From [Django 1.4 project template for fast heroku deployment](https://github.com/tedtieken/django-project-skel)
+From [Django 1.4 project template for fast heroku deployment](https://github.com/django-quickstart/1.5-heroku)
  -->
 
 
@@ -140,12 +140,12 @@ source ~/ve/[project-name]/bin/activate
 
 Install Django
 ``` bash
-pip install Django
+pip install "django>=1.5,<1.6"
 ``` 
 
 Start a project.
 ``` bash
-django-admin.py startproject --template https://github.com/tedtieken/django-project-skel/zipball/master --extension py,md,gitignore,dist [project-name]
+django-admin.py startproject --template https://github.com/django-quickstart/1.5-heroku/zipball/master --extension py,md,gitignore,dist [project-name]
 cd [project-name]
 touch virtenv_is_[project-name]
 ```
